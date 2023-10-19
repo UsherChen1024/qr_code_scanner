@@ -84,6 +84,7 @@ class _QRViewState extends State<QRView> {
   void dispose() {
     super.dispose();
     WidgetsBinding.instance.removeObserver(_observer);
+    _channel.setMethodCallHandler(null);
   }
 
   Future<void> updateDimensions() async {
