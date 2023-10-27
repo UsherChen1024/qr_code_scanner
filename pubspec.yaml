@@ -1,7 +1,7 @@
 name: joy_code_scanner
 description: QR code scanner that can be embedded inside flutter. It uses zxing in Android and MTBBarcode scanner in iOS. forked from juliuscanute/qr_code_scanner
 
-version: 1.0.2
+version: 1.0.4
 homepage: https://github.com/UsherChen1024/qr_code_scanner
 repository: https://github.com/UsherChen1024/qr_code_scanner
 
